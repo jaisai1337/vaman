@@ -45,4 +45,16 @@ wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman6.sh
 chmod +x vaman6.sh
 ./vaman6.sh
 ```
-
+## Add Path to .bashrc
+```
+nano ~/.bashrc
+```
+##### Paste the following 3 lines at the end of the file
+* export  INSTALL_DIR=/data/data/com.termux/files/home/symbiflow
+* export PATH="$INSTALL_DIR/quicklogic-arch-defs/bin:$INSTALL_DIR/quicklogic-arch-defs/bin/python3:$PATH"
+* export PATH=/data/data/com.termux/files/home/symbiflow/bin:$PATH
+##### After Edit The Config File Just Save And Exit
+```
+Ctrl+x
+Y 
+```
