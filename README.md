@@ -39,3 +39,10 @@ wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman5.sh
 chmod +x vaman5.sh
 ./vaman5.sh
 ```
+## Install vtr
+```
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman6.sh
+chmod +x vaman6.sh
+./vaman6.sh
+```
+
