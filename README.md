@@ -68,3 +68,20 @@ yosys -h
 qlfasm -h
 ql_symbiflow -h
 ```
+### Test Installation
+```
+cd $INSTALL_DIR/quicklogic-arch-defs/tests/counter_16bit
+ql_symbiflow -compile -d ql-eos-s3 -P pd64 -v counter_16bit.v -t top -p chandalar.pcf -dump binary
+```
+##### top.bin must be generated successfully 
+## Making Directory & Downloading Blinking Light Project For vaman
+```
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman7.sh
+chmod +x vaman7.sh
+./vaman7.sh
+```
+### Compling The Blinking Light Program
+```
+ql_symbiflow -compile -src /data/data/com.termux/files/home/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary
+```
+* helloworldfpga.bin must be generated successfully in /data/data/com.termux/files/home/fpga-examples/blink
