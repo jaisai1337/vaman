@@ -53,8 +53,18 @@ nano ~/.bashrc
 * export  INSTALL_DIR=/data/data/com.termux/files/home/symbiflow
 * export PATH="$INSTALL_DIR/quicklogic-arch-defs/bin:$INSTALL_DIR/quicklogic-arch-defs/bin/python3:$PATH"
 * export PATH=/data/data/com.termux/files/home/symbiflow/bin:$PATH
-##### After Edit The Config File Just Save And Exit
+##### After Edit The File Just Save And Exit
 ```
 Ctrl+x
 Y 
+```
+```
+cd /data/data/com.termux/files/home/
+```
+## Check the executables on Path
+```
+vpr -h
+yosys -h
+qlfasm -h
+ql_symbiflow -h
 ```
