@@ -85,3 +85,26 @@ chmod +x vaman7.sh
 ql_symbiflow -compile -src /data/data/com.termux/files/home/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary
 ```
 * helloworldfpga.bin must be generated successfully in /data/data/com.termux/files/home/fpga-examples/blink
+### Transfer .bin file to RaspberryPi
+```
+scp /data/data/com.termux/files/home/fpga-examples/blink/helloworldfpga.bin pi@192.168.1.6:/home/
+```
+* Suitably Modify the above IPAddress
+## On Your RaspberryPi
+##### Cloning TinyFPGA-Programmer-Application.git & Installing Modules
+```
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman8.sh
+chmod +x vaman8.sh
+./vaman8.sh
+```
+## Reboot The RasberryPi
+```
+sudo reboot
+```
+### Installing into Vaman
+```
+python3 /home/pi/TinyFPGA-Programmer-Application/tinyfpga-programmer-gui.py --port /dev/ttyACM0 --appfpga /home/pi/helloworldfpga.bin --mode fpga
+
+```
+
+
