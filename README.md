@@ -89,7 +89,7 @@ ql_symbiflow -compile -src /data/data/com.termux/files/home/fpga-examples/blink 
 * helloworldfpga.bin must be generated successfully in /data/data/com.termux/files/home/fpga-examples/blink
 ### Transfer .bin file to RaspberryPi
 ```
-scp /data/data/com.termux/files/home/fpga-examples/blink/helloworldfpga.bin pi@192.168.1.6:/home/
+scp /data/data/com.termux/files/home/fpga-examples/blink/helloworldfpga.bin pi@192.168.1.6:/home/pi/
 ```
 * Suitably Modify the above IPAddress
 ## On Your RaspberryPi
