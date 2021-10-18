@@ -61,6 +61,8 @@ Y
 ```
 cd /data/data/com.termux/files/home/
 ```
+##### Just Restart The Termux Onces
+
 ## Check the executables on Path
 ```
 vpr -h
