@@ -11,7 +11,7 @@ chmod +x vaman1.sh
 ```
 ## Cloning The pygmy-dev in Home of Termux
 ```
-cd /data/data/com/termux/files/home/
+cd /data/data/com.termux/files/home/
 git clone --recursive https://github.com/optimuslogic/pygmy-dev
 ```
 ## Create Directory For Building the Toolchain
