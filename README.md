@@ -5,7 +5,7 @@ proot-distro login ubuntu
 ```
 ## Update & Upgrade Ubuntu And Download Mandatory Packages
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman1.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman1.sh
 chmod +x vaman1.sh
 ./vaman1.sh
 ```
@@ -16,32 +16,32 @@ git clone --recursive https://github.com/optimuslogic/pygmy-dev
 ```
 ## Create Directory For Building the Toolchain
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman2.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman2.sh
 chmod +x vaman2.sh
 ./vaman2.sh
 ```
 
 ## Install fasm
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman3.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman3.sh
 chmod +x vaman3.sh
 ./vaman3.sh
 ```
 ## Install yosys
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman4.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman4.sh
 chmod +x vaman4.sh
 ./vaman4.sh
 ```
 ## Install yosys-symbiflow
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman5.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman5.sh
 chmod +x vaman5.sh
 ./vaman5.sh
 ```
 ## Install vtr
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman6.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman6.sh
 chmod +x vaman6.sh
 ./vaman6.sh
 ```
@@ -78,7 +78,7 @@ ql_symbiflow -compile -d ql-eos-s3 -P pd64 -v counter_16bit.v -t top -p chandala
 ##### top.bin must be generated successfully 
 ## Making Directory & Downloading Blinking Light Project For vaman
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman7.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman7.sh
 chmod +x vaman7.sh
 ./vaman7.sh
 ```
@@ -95,7 +95,7 @@ scp /data/data/com.termux/files/home/fpga-examples/blink/helloworldfpga.bin pi@1
 ## On Your RaspberryPi
 ##### Cloning TinyFPGA-Programmer-Application.git & Installing Modules
 ```
-wget https://raw.githubusercontent.com/jaisai1337/vaman/main/vaman8.sh
+wget https://raw.githubusercontent.com/jaisai1337/vaman/main/imp/vaman8.sh
 chmod +x vaman8.sh
 ./vaman8.sh
 ```
