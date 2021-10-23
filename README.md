@@ -1,4 +1,4 @@
-# Vaman Installation On Termux Ubuntu
+# FPGA Installation On Termux Ubuntu
 ### Login into Ubuntu
 ```
 proot-distro login ubuntu
